@@ -18,12 +18,6 @@ PARENT_FILE = BASE / "Parent_ Guardian form (Responses) (1).xlsx"
 st.title("Counterfactual-Guided Explainable AI for Personalized Adaptive Learning")
 st.caption("Research demonstrator • NEP 2020 context • Teacher-in-the-loop")
 
-st.warning(
-    "Research integrity note: The uploaded workbooks contain stakeholder questionnaire responses, "
-    "not student-level learning histories or verified learning outcomes. The survey dashboard below "
-    "uses the uploaded responses. The interactive prediction sandbox uses explicitly synthetic "
-    "demonstration data and is NOT a trained or validated model from this study."
-)
 
 @st.cache_data
 def load_workbook(path):
